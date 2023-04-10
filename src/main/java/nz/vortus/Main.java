@@ -1,4 +1,4 @@
-package org.example;
+package nz.vortus;
 
 import java.awt.print.PrinterException;
 import java.net.MalformedURLException;

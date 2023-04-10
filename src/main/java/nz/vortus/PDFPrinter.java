@@ -1,4 +1,4 @@
-package org.example;
+package nz.vortus;
 
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
@@ -17,12 +17,12 @@ public  class PDFPrinter {
     private  String pathname ;
     private URL url;
 
-    PDFPrinter(File file) throws PrinterException {
+    public PDFPrinter(File file) throws PrinterException {
 
         this.file = file;
         print();
     }
-    PDFPrinter(URL url) throws PrinterException {
+    public PDFPrinter(URL url) throws PrinterException {
         this.url = url;
         print();
     }
